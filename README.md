@@ -32,5 +32,6 @@ Version control with **Git/GitHub** (commit per feature) • Deployed via **GitH
 | 2.5     | Apply colour and layout for readability and accessibility                | Visual hierarchy is reinforced through colour contrast (text on dark overlay), padding, and logical grouping of elements. No decorative cropping or obscured content. |
 | 2.6     | Use appropriate input types and basic validation                          | Contact form uses `email`, `text`, `textarea`, and required fields. |
 | 2.7     | Create interactive components with user feedback                          | Contact form is keyboard-accessible, focus-highlighted, and gives visual feedback on hover/focus states. |
+| 2.3     | Ensure external links open in a new tab with safe attributes              | Footer link uses `target="_blank"` and `rel="noopener noreferrer"` for accessibility and security. |
 | 3.1     | Create a README that explains the web app and its purpose                 | This file (README) documents the hotel app’s goals and user types. |
 | 4.3     | Use Git/GitHub for version control                                        | Every feature committed in its own Git commit with descriptive message. |
