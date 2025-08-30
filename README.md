@@ -35,3 +35,16 @@ Version control with **Git/GitHub** (commit per feature) • Deployed via **GitH
 | 2.3     | Ensure external links open in a new tab with safe attributes              | Footer link uses `target="_blank"` and `rel="noopener noreferrer"` for accessibility and security. |
 | 3.1     | Create a README that explains the web app and its purpose                 | This file (README) documents the hotel app’s goals and user types. |
 | 4.3     | Use Git/GitHub for version control                                        | Every feature committed in its own Git commit with descriptive message. |
+
+
+
+
+## Lint/Validation Evidence
+
+https://validator.w3.org/nu
+
+<img src="assets/img/Passed W3Validator.png">
+
+https://jigsaw.w3.org/css-validator/validator
+
+<img src="assets/img/Passed CSS check.png">
