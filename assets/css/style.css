@@ -40,3 +40,52 @@ footer {
 .nav__list a:focus {
   text-decoration: underline;
 }
+
+/* Hero banner */
+.hero {
+  /* background image & basic sizing */
+  min-height: 60vh;               /* tall enough to fill the fold */
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: var(--clr-neutral-100);
+}
+
+.hero::before {                   /* subtle dark overlay for contrast */
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgb(0 0 0 / .4);
+}
+
+.hero__inner {
+  position: relative;             /* pulls content above overlay */
+  max-width: 50ch;
+  padding: 0 1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: .75rem 1.5rem;
+  background: var(--clr-primary);
+  color: var(--clr-neutral-100);
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: .25rem;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: .9;
+}
+
+/* responsive tweak */
+@media (max-width: 600px) {
+  .hero {
+    min-height: 40vh;             /* shorter on small screens */
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+}
