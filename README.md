@@ -22,7 +22,12 @@ Version control with **Git/GitHub** (commit per feature) • Deployed via **GitH
 
 | AO Code | Description (abbreviated)                                                 | Where it's demonstrated                        |
 |---------|----------------------------------------------------------------------------|------------------------------------------------|
+| 1.1     | Use semantic HTML structure                                               | `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` all used meaningfully. |
 | 1.2     | Apply accessible colour schemes with contrast                             | Hero banner uses dark overlay to improve WCAG contrast against text. |
+| 1.3     | Write accessible content that communicates clearly                        | Room descriptions and headings use plain English and strong hierarchy. |
 | 1.4     | Responsive design applied for different screen sizes                      | Media query shrinks hero height + font size below 600px width. |
+| 2.1     | Build responsive layouts with media queries or grid systems              | CSS Grid with `auto-fit` + `minmax()` used to create responsive room cards. |
+| 2.4     | Provide `alt` attributes for non-decorative images                        | All room images use meaningful, descriptive `alt` text. |
+| 2.5     | Apply colour and layout for readability and accessibility                | Room card layout uses clear type, padding, and light background to aid reading. |
 | 3.1     | Create a README that explains the web app and its purpose                 | This file (README) documents the hotel app’s goals and user types. |
 | 4.3     | Use Git/GitHub for version control                                         | Every feature committed in its own Git commit with descriptive message. |
