@@ -17,6 +17,12 @@ The goal is to modernise the current paper-based process by giving guests and st
 HTML5 • CSS (Grid + Flexbox) • vanilla JS (minimal, only for interactions)  
 Version control with **Git/GitHub** (commit per feature) • Deployed via **GitHub Pages**.
 
-## Assessment mapping:
-* README: AO 3.1 – 3.3 & 4.3.
 
+## Assessment Criteria Evidence (Running Log)
+
+| AO Code | Description (abbreviated)                                                 | Where it's demonstrated                        |
+|---------|----------------------------------------------------------------------------|------------------------------------------------|
+| 1.2     | Apply accessible colour schemes with contrast                             | Hero banner uses dark overlay to improve WCAG contrast against text. |
+| 1.4     | Responsive design applied for different screen sizes                      | Media query shrinks hero height + font size below 600px width. |
+| 3.1     | Create a README that explains the web app and its purpose                 | This file (README) documents the hotel app’s goals and user types. |
+| 4.3     | Use Git/GitHub for version control                                         | Every feature committed in its own Git commit with descriptive message. |
