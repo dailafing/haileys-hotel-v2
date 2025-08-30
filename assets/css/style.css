@@ -14,12 +14,30 @@ body {
   color: var(--clr-neutral-900);
 }
 
-header,
-footer {
+header {
   padding: 1rem;
   background: var(--clr-accent);
   color: var(--clr-neutral-100);
 }
+
+footer {
+  padding: 1.5rem 1rem;
+  background: var(--clr-accent);
+  color: var(--clr-neutral-100);
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: var(--clr-neutral-100);
+  text-decoration: underline;
+}
+
+footer a:hover,
+footer a:focus {
+  opacity: 0.8;
+}
+
 
 /* Navigation */
 .nav__list {
