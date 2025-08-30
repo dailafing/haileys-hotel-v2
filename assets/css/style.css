@@ -43,27 +43,34 @@ footer {
 
 /* Hero banner */
 .hero {
-  /* background image & basic sizing */
   position: relative;
-  min-height: 60vh;               /* tall enough to fill the fold */
-  display: grid;
-  place-items: center;
-  text-align: center;
-  color: var(--clr-neutral-100);
+  display: block;
 }
 
-.hero::before {                   /* subtle dark overlay for contrast */
-  content: "";
+.hero__img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero__overlay {
   position: absolute;
-  inset: 0;
-  background: rgb(0 0 0 / .4);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(0 0 0 / 0.6); /* Targeted darkness */
+  padding: 2rem;
+  color: var(--clr-neutral-100);
+  text-align: center;
+  max-width: 90%;
+  border-radius: 0.5rem;
 }
 
-.hero__inner {
-  position: relative;             /* pulls content above overlay */
-  max-width: 50ch;
-  padding: 0 1rem;
+.hero__inner h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
+
 
 .btn {
   display: inline-block;
