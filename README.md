@@ -48,3 +48,28 @@ https://validator.w3.org/nu
 https://jigsaw.w3.org/css-validator/validator
 
 <img src="assets/img/Passed CSS check.png">
+
+
+
+
+## Manual Testing
+
+| Test Case ID | Feature             | Steps                                                                 | Expected Outcome                                 | Result |
+|--------------|---------------------|-----------------------------------------------------------------------|--------------------------------------------------|--------|
+| TC001        | Contact Form         | Enter valid name, email, message and click "Send Message"            | Form submits or shows visual success feedback    | Pass   |
+| TC002        | External Link        | Click the footer link to Gateway Qualifications                      | Opens in new tab without errors                  | Pass   |
+| TC003        | Responsive Layout    | Resize browser window to below 600px width                           | Room cards and hero text stack vertically        | Pass   |
+
+## Manual Testing Evidence
+
+### TC001:
+
+<img src="assets/img/Screenshot 2025-08-30 at 4.19.53 pm.png">
+
+### TC002:
+
+<img src="assets/img/New Tab Evidence.jpg">
+
+### TC003:
+
+<img src="assets/img/Responsive.png">
