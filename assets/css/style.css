@@ -44,6 +44,7 @@ footer {
 /* Hero banner */
 .hero {
   /* background image & basic sizing */
+  position: relative;
   min-height: 60vh;               /* tall enough to fill the fold */
   display: grid;
   place-items: center;
